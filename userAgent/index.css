@@ -1,0 +1,23 @@
+body{
+    position: sticky;
+    position: static;
+
+}
+
+/* Network Staus styles */
+.online,
+.offline{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    background: rgb(78, 202, 7);
+    color: #fff;
+}
+
+.offline{
+    background: rgb(255, 10, 10);
+}
